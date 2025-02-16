@@ -46,16 +46,6 @@ $(document).ready(function() {
         });
     });
 
-    // Portfolio hover effect
-    $('.portfolio-item').hover(
-        function() {
-            $(this).find('.portfolio-overlay').css('opacity', '1');
-        },
-        function() {
-            $(this).find('.portfolio-overlay').css('opacity', '0');
-        }
-    );
-
     // Initialize navbar
     $('.navbar-nav .nav-item:first-child .nav-link').addClass('active');
 

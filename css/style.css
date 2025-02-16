@@ -328,9 +328,6 @@ h1, h2, h3, h4, h5, h6 {
     border: 1px solid var(--neon-blue);
     box-shadow: 0 0 20px rgba(0, 255, 245, 0.2);
     aspect-ratio: 1;
-}
-
-.portfolio-item.coming-soon {
     background: rgba(18, 4, 88, 0.95);
     display: flex;
     flex-direction: column;
@@ -340,55 +337,19 @@ h1, h2, h3, h4, h5, h6 {
     padding: 20px;
 }
 
-.portfolio-item.coming-soon h4 {
+.portfolio-item h4 {
     color: var(--neon-blue);
     text-shadow: 0 0 10px var(--neon-blue);
     margin-bottom: 10px;
 }
 
-.portfolio-item.coming-soon p {
+.portfolio-item p {
     color: var(--neon-pink);
     text-shadow: 0 0 5px var(--neon-pink);
     margin-bottom: 20px;
 }
 
-.portfolio-item.coming-soon i {
-    color: var(--neon-purple);
-    text-shadow: 0 0 10px var(--neon-purple);
-}
-
-.portfolio-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(18, 4, 88, 0.9);
-    border: 1px solid var(--neon-pink);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    opacity: 0;
-    transition: all 0.3s ease;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-}
-
-.portfolio-overlay h4 {
-    color: var(--neon-blue);
-    text-shadow: 0 0 10px var(--neon-blue);
-    margin-bottom: 10px;
-}
-
-.portfolio-overlay p {
-    color: var(--neon-pink);
-    text-shadow: 0 0 5px var(--neon-pink);
-    margin-bottom: 20px;
-}
-
-.portfolio-overlay .btn-primary {
+.portfolio-item .btn-primary {
     background: transparent;
     border: 2px solid var(--neon-purple);
     color: var(--neon-purple);
@@ -399,14 +360,10 @@ h1, h2, h3, h4, h5, h6 {
     transition: all 0.3s ease;
 }
 
-.portfolio-overlay .btn-primary:hover {
+.portfolio-item .btn-primary:hover {
     background: var(--neon-purple);
     color: #fff;
     box-shadow: 0 0 20px var(--neon-purple);
-}
-
-.portfolio-item:hover .portfolio-overlay {
-    opacity: 1;
 }
 
 .portfolio-item img {
